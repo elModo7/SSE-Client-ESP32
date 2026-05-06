@@ -2,6 +2,8 @@
 
 Minimal example of an ESP32 consuming Server-Sent Events for my [PokeT-Dex](https://github.com/elModo7/pokemon-crystal-research-toolkit) project.
 
+For the server you can use my [Go SSE Server Template](https://github.com/elModo7/sse-server-go).
+
 Most ESP32 examples show how to send SSE from the board. This one does the opposite: the ESP32 connects to an SSE endpoint, keeps the HTTP connection open, reads the stream line by line, and handles incoming events.
 
 ## What it does
